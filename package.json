@@ -1,0 +1,30 @@
+{
+  "name": "gulp-stubs",
+  "version": "0.0.1",
+  "description": "TDD helper that helps writing stubs in units as soon as they are described in specs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurideja/gulp-stubs.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "stubs",
+    "jasmine",
+    "tdd"
+  ],
+  "author": "Gytis Taločka <kurideja@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurideja/gulp-stubs/issues"
+  },
+  "homepage": "https://github.com/kurideja/gulp-stubs#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
