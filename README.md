@@ -39,9 +39,9 @@ Passing templateUrl to the plugin allows to get more sophisticated stubs, e.g.:
 function {name}() {}
 ```
 
-* {unit} - by default will be replaced with <name> from JSDoc @type {{<name>}} markup
+* `{unit}` - by default will be replaced with `<name>` from JSDoc `@type {{<name>}}` markup
 Else it will be an empty string
-* {name} - name of described method that is not present in the actual unit
+* `{name}` - name of described method that is not present in the actual unit
 
 ## Workflow
 
