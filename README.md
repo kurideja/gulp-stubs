@@ -26,9 +26,9 @@ gulp.task('stubs', function() {
 ```
 
 ## API
-gulpStubs(marker[, templateUrl]);
-* {string} marker - a custom string that defines where methods should be written
-* {string} templateUrl - optional url to the template
+gulpStubs(options);
+* {string} options.marker - a custom string that defines where methods should be written
+* {string?} options.templateUrl - optional url to the template
  
 ## Template
 Passing templateUrl to the plugin allows to get more sophisticated stubs, e.g.:
