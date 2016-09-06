@@ -1,6 +1,6 @@
 {
   "name": "gulp-stubs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TDD helper that helps writing stubs in units as soon as they are described in specs.",
   "main": "index.js",
   "scripts": {
